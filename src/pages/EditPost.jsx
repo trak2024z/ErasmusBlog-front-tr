@@ -7,7 +7,7 @@ import axios from 'axios'
 
 const EditPost = () => {
   const [title, setTitle] = useState('')
-  const [category, setCategory] = useState('')
+  const [category, setCategory] = useState('Agriculture')
   const [description, setDescription] = useState('')
   const [thumbnail, setThumbnail] = useState('')
   const [error, setError] = useState("")
